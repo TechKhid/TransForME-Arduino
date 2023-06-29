@@ -136,7 +136,8 @@ val = digitalRead(motion);
 if (val == 1){
   Serial.println("Motion detected!");
   delay(200);
-  capturePhotoSaveSpiffs();                     
+  capturePhotoSaveSpiffs();
+  delay(100);                     
   sendPhoto();
   SPIFFS.remove("FILE_PHOTO");
 }
@@ -237,14 +238,3 @@ void sendCallback(SendStatus msg) {
   Serial.println(msg.info());
 }
 
-// void test(){
-//   digitalWrite(trig, HIGH);
-//   delay(10);
-//   digitalWrite(echo, LOW);
-//   delay(10);
-// }
-
-// float calc_distance(float time, float speed){
-//   float dist = (time*speed)/2;
-//   return dist;
-// }

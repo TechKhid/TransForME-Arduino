@@ -1,5 +1,9 @@
-//WRITTEN BY THE TECHKHID
+/*
+WRITTEN BY THE TECHKHID
+ASUSTEM ROBOTICS-LENOVO TRANSFORME
+ARDUINO LESSON-(Introduction to the Light Dependent Resistor(LDR)---project)
 
+*/
 
 #include<Servo.h> // Import Servo library
 

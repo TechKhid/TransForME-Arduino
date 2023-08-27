@@ -1,4 +1,8 @@
-// WRITTEN BY THE TECHKHID
+/*
+WRITTEN BY THE TECHKHID
+ASUSTEM ROBOTICS-LENOVO TRANSFORME
+PROJECT
+*/
 
 #include <Servo.h> // import Servo library
 

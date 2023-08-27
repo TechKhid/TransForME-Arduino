@@ -1,7 +1,7 @@
 /*
 WRITTEN BY THE TECHKHID
 ASUSTEM ROBOTICS-LENOVO TRANSFORME
-PROJECT
+PROJECT BUILD
 */
 
 #include <Servo.h> // import Servo library

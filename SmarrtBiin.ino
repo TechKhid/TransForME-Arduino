@@ -1,8 +1,7 @@
 /*
 WRITTEN BY THE TECHKHID
 ASUSTEM ROBOTICS-LENOVO TRANSFORME
-ARDUINO LESSON-(Introduction to the Light Dependent Resistor(LDR)---project)
-
+PROJECT BUILD
 */
 
 #include<Servo.h> // Import Servo library
